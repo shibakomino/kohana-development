@@ -15,3 +15,12 @@
 	path = dev-modules/kohana-core-dev
 	url = https://github.com/shibakomino/kohana-core-dev.git
 	branch = 3.7/master
+[submodule "dev-modules/sample"]
+	path = dev-modules/sample
+	url = https://github.com/shibakomino/kohana-sample-module.git
+[submodule "dev-modules/core/exception"]
+	path = dev-modules/core/exception
+	url = https://github.com/shibakomino/kohana-core-exception.git
+[submodule "dev-modules/core/debug"]
+	path = dev-modules/core/debug
+	url = https://github.com/shibakomino/kohana-core-debug.git
