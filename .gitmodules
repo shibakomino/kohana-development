@@ -1,0 +1,13 @@
+[submodule "web"]
+	path = web
+	url = https://github.com/shibakomino/kohana.git
+	branch = 3.7/develop-lite
+[submodule "dev-modules/codebench"]
+	path = dev-modules/codebench
+	url = https://github.com/shibakomino/codebench.git
+[submodule "dev-modules/unittest"]
+	path = dev-modules/unittest
+	url = https://github.com/shibakomino/unittest.git
+[submodule "dev-modules/userguide"]
+	path = dev-modules/userguide
+	url = https://github.com/shibakomino/userguide.git
