@@ -11,10 +11,6 @@
 [submodule "dev-modules/userguide"]
 	path = dev-modules/userguide
 	url = https://github.com/shibakomino/userguide.git
-[submodule "dev-modules/kohana-core-dev"]
-	path = dev-modules/kohana-core-dev
-	url = https://github.com/shibakomino/kohana-core-dev.git
-	branch = 3.7/master
 [submodule "dev-modules/sample"]
 	path = dev-modules/sample
 	url = https://github.com/shibakomino/kohana-sample-module.git
