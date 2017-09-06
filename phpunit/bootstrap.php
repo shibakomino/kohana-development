@@ -14,12 +14,5 @@ define('DEV_MODPATH', realpath(DOCROOT . '../dev-modules/') . '/');
 
 require '../web/system/classes/Kohana.php';
 
-spl_autoload_register(['Kohana', 'auto_load_PSR4']);
-
 Kohana::init(Kohana::DEVELOPMENT);
-Kohana::modules([
-//    'core-config'  => MODPATH . 'core/config',
-    'core-wrapper' => MODPATH . 'core/wrapper',
-    'core-log'     => MODPATH . 'core/log',
-    ]);
-Kohana::modules_init();
+spl_autoload_register(['Kohana', 'auto_load_PSR4']);
