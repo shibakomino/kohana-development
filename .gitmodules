@@ -20,3 +20,7 @@
 [submodule "dev-modules/core/debug"]
 	path = dev-modules/core/debug
 	url = https://github.com/shibakomino/kohana-core-debug.git
+[submodule "dev-modules/core/profiler"]
+	path = dev-modules/core/profiler
+	url = https://github.com/shibakomino/kohana-core-profiler.git
+	branch = 3.7/master
